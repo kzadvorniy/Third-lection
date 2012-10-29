@@ -1,4 +1,12 @@
 ThirdApp::Application.routes.draw do
+  get "cyril/main"
+
+  get "cyril/index"
+
+  get "cyril/about"
+
+  get "cyril/help"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

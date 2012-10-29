@@ -1,5 +1,16 @@
 source 'https://rubygems.org'
 
+group :development, :test do
+gem 'sqlite3'
+gem 'rspec-rails'
+end
+group :test do
+gem 'capybara'
+end
+group :production do
+gem 'pg'
+end
+
 gem 'rails', '3.2.1'
 
 # Bundle edge Rails instead:
